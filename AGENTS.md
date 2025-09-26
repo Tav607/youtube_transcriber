@@ -7,7 +7,7 @@
 1. **准备环境**
    - 如果虚拟环境不存在，运行 `python3 -m venv .venv`。
    - 激活虚拟环境：`. .venv/bin/activate`。
-   - 安装依赖：`pip install --upgrade pip yt-dlp`。
+   - 安装依赖：``pip install --upgrade pip`` 后运行 ``pip install -r requirements.txt``。
 2. **运行脚本**
    - 执行 `python download_audio.py`。
    - 按提示输入 URL，并选择所需格式。
